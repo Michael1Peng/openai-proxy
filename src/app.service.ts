@@ -1,5 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { HttpService } from '@nestjs/axios';
+import { HttpService, AxiosResponse } from '@nestjs/axios';
 import { Request, Response } from 'express';
 import { createWriteStream } from 'fs';
 import { join } from 'path';

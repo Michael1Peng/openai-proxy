@@ -30,7 +30,7 @@ export class AppService {
     logStream.write(`Body: ${JSON.stringify(data)}\n`);
 
     try {
-      const response = await firstValueFrom(
+      const response: AxiosResponse = await firstValueFrom(
         this.httpService.request({
           url,
           method,

@@ -1,0 +1,2 @@
+create a nodejs server for me. Use nest.js as framwork. Accept all the path from requests, forward to https://api.openai.com/ domain.
+console.log all the request and response to the console, then put them in the log file. log file path use date as filename.
